@@ -249,7 +249,7 @@ if submit_button and user_input:
         response = requests.post(
             "https://openrouter.ai/api/v1/chat/completions",
             headers={
-                "Authorization": "Bearer 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",
+                "Authorization": "Bearer OPENROUTER_API_KEY",
                 "HTTP-Referer": "https://www.sitename.com",
                 "X-Title": "SiteName",
                 "Content-Type": "application/json",
